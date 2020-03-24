@@ -1,3 +1,3 @@
 # Fluid channel modeling
 
-This repository contains files for Python-based modeling of void fraction in microfluidic channels. Image data is located inside the *\data* directory. Models are created using *channel_modeling.ipynb*. Existing models are stored in the *\models* directory. The models can be reconstructed using *reconstruct_models.ipynb*.
+This repository contains files for Python-based modeling of void fraction in microfluidic channels. Image data is located inside the *\data* directory. Models are created using *channel_modeling.ipynb*. Running *channel_modeling.ipynb* creates a model for each image. The models are saved in the *\models* directory. The models are then used to reconstruct simulated void fraction configurations for gathering statistics and visualizing the state of the channel.
