@@ -9,6 +9,10 @@ This repository contains files for Python-based modeling of void fraction in mic
 5. The individual channel models created by *channel_modeling.ipynb* are saved as Python dictionaries in the *\models* directory.
 6. The Python notebook *model_visualization.ipynb* is used to open each model from file and plot statistics about the model. The notebook *model_visualization.ipynb* also reads model parameters from the *model_parameters.npy* file.
 
+
+The modeling results are saved and read from file so that any step in the workflow can be executed without restarting the entire process. This is imporant since constructing the actual channel models can take up to two hours for the entire image list.
+
+
 Each model in the *\models* directory is a Python dictionary saved as a numpy *.npy* binary file, which contains the following information:
 * **label**: (filename) of the original channel image
 * **img_model**: simulated channel image
