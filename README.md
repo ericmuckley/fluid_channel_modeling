@@ -26,7 +26,12 @@ Each model in the *\models* directory is a Python dictionary saved as a numpy *.
 
 ## Examples
 Shown below is an example of void fraction images and simulated model images.
+
+
 ![Example of channel images and models](./img/example_models.JPG)
 
+
 Shown below are plots of model statistics which summarize bubble populations.
+
+
 ![Example of bubble statistics](./img/stats.JPG)
