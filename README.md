@@ -23,7 +23,7 @@ Modeling of the bubble populations is carried out by Monte Carlo method. An simu
 
 ## Reading saved model information
 
-The model information is written to file in binary format and can be read back into Python using for example
+The model information is written to file in binary format and can be read back into Python as a dictionary using:
 ```python
 import numpy as np
 model_filename = 'model_info.npy'
