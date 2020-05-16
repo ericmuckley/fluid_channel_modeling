@@ -5,6 +5,8 @@ This repository contains files for Python-based modeling of void fraction in mic
 1. modeling all bubbles as elongated ellipses by populating each cross-sectional slice of the image with ellipses (**_channel_modeling_cross_sections.ipynb_**)
 2. modeling all bubbles as spheres (**_channel_modeling_spheres.ipynb_**)
 
+For examples of how the bubble configurations look inside the channel, download and watch the videos **_channel_cross_section_ellipses.avi_** or **_channel_cross_sections.avi_**.
+
 
 ### General procedure
 1. All raw image data is stored in the **_data_** directory
