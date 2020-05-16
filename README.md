@@ -8,7 +8,7 @@ This repository contains files for Python-based modeling of void fraction in mic
 
 ## Channel modeling of cross sections
 
-This methods assumes that bubbles can take the shape of elongated ellipses which stretch along the length of the channel, and that bubbles which come in contact with each other may coalesce into larger single bubbles. 
+This method assumes that bubbles can take the shape of elongated ellipses which stretch along the length of the channel, and that bubbles which come in contact with each other may coalesce into larger single bubbles. 
 
 ### Workflow
 
@@ -41,7 +41,7 @@ Bubbles are constructed by stacking elliptical cross sections. Each bubble cross
 
 ## Channel modeling of spheres
 
-This methods models bubbles in the channel as spheres which are placed using Monte Carlo methods.
+This method models bubbles in the channel as spheres which are placed using Monte Carlo methods.
 
 ### Workflow
 
