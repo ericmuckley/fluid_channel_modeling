@@ -1,6 +1,10 @@
 # Fluid channel modeling
 
-This repository contains files for Python-based modeling of void fraction in microfluidic channels. 
+This repository contains files for Python-based modeling of void fraction in microfluidic channels. Different methods are used:
+1. modeling all bubbles as spheres (**_channel_modeling_spheres.ipynb_**)
+2. modeling all bubbles as elongated ellipses by populating each cross-sectional slice of the image with ellipses (**_channel_modeling_cross_sections.ipynb_**)
+
+
 
 ## Workflow
 
